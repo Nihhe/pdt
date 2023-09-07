@@ -1,0 +1,2 @@
+make -f tensorflow/lite/micro/tools/make/Makefile person_detection
+gen/linux_x86_64_default/bin/person_detection
