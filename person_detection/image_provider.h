@@ -32,6 +32,8 @@ limitations under the License.
 // The reference implementation can have no platform-specific dependencies, so
 // it just returns a static image. For real applications, you should
 // ensure there's a specialized implementation that accesses hardware APIs.
+extern const unsigned int img_int8_size;
+extern const uint8_t img_int8[];
 TfLiteStatus GetImage(int image_width, int image_height, int channels,
                       int8_t* image_data);
 
